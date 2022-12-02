@@ -1,6 +1,6 @@
-package web.dao;
+package main.java.web.dao;
 
-import web.entity.User;
+import main.java.web.entity.User;
 
 import java.util.List;
 

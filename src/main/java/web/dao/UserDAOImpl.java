@@ -1,5 +1,5 @@
-package web.dao;
-import web.entity.User;
+package main.java.web.dao;
+import main.java.web.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;

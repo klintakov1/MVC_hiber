@@ -1,4 +1,4 @@
-package web.config;
+package main.java.web.config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -87,7 +87,7 @@ public class WebConfig implements WebMvcConfigurer {
         em.setJpaVendorAdapter(vendorAdapter);
         em.setJpaProperties(properties());
         em.setDataSource(dataSource);
-        em.setPackagesToScan("web.entity");
+        em.setPackagesToScan("main.java.web.entity");
         return em;
     }
 

@@ -1,6 +1,6 @@
-package web.service;
+package main.java.web.service;
 
-import web.entity.User;
+import main.java.web.entity.User;
 
 import java.util.List;
 

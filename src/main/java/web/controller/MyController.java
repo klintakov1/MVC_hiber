@@ -1,9 +1,9 @@
-package web.controller;
+package main.java.web.controller;
 
+import main.java.web.entity.User;
+import main.java.web.service.UserService;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import web.entity.User;
-import web.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
