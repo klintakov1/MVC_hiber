@@ -24,9 +24,9 @@ import java.util.Properties;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("web")
+@ComponentScan("main.java.web")
 @EnableTransactionManagement
-@EnableJpaRepositories("web.dao")
+@EnableJpaRepositories("main.java.web.dao")
 public class WebConfig implements WebMvcConfigurer {
     private final ApplicationContext applicationContext;
 
